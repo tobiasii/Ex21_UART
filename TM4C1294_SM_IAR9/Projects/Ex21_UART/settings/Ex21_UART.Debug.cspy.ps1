@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\UTFPR\Microcontroladores\ParteII\LAB5\TM4C1294_SM_IAR9\Projects\asm_example\settings\asm_example.Debug.general.xcl" --backend -f "D:\UTFPR\Microcontroladores\ParteII\LAB5\TM4C1294_SM_IAR9\Projects\asm_example\settings\asm_example.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\UTFPR\Microcontroladores\ParteII\LAB5\TM4C1294_SM_IAR9\Projects\Ex21_UART\settings\Ex21_UART.Debug.general.xcl" --backend -f "D:\UTFPR\Microcontroladores\ParteII\LAB5\TM4C1294_SM_IAR9\Projects\Ex21_UART\settings\Ex21_UART.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\UTFPR\Microcontroladores\ParteII\LAB5\TM4C1294_SM_IAR9\Projects\asm_example\settings\asm_example.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\UTFPR\Microcontroladores\ParteII\LAB5\TM4C1294_SM_IAR9\Projects\asm_example\settings\asm_example.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\UTFPR\Microcontroladores\ParteII\LAB5\TM4C1294_SM_IAR9\Projects\Ex21_UART\settings\Ex21_UART.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\UTFPR\Microcontroladores\ParteII\LAB5\TM4C1294_SM_IAR9\Projects\Ex21_UART\settings\Ex21_UART.Debug.driver.xcl" 
 }
